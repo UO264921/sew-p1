@@ -1,9 +1,8 @@
-h1,h2{
+h1,h2{ /*Especificidad 2 (0,0,2)*/
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
 	border-radius: 2em;
-	display: grid;
 }
 
 body {	/*Especificidad 1 (0,0,1)*/
@@ -15,21 +14,18 @@ body {	/*Especificidad 1 (0,0,1)*/
 	list-style-type: upper-roman;
 	margin-left: 400px;
 	margin-right: 400px;
-	display: grid;
  }
  
 h1 {	/*Especificidad 1 (0,0,1)*/
 	background-color:#333;
 	padding: 10px 25px;
 	text-align: center;
-	display: grid;
  }
  
  h2{	/*Especificidad 1 (0,0,1)*/
 	width: 97%;
 	background-color:#555;
 	padding: 15px 25px;	 
-	display: grid;
  }
  
  h3 {	/*Especificidad 1 (0,0,1)*/
@@ -39,32 +35,10 @@ h1 {	/*Especificidad 1 (0,0,1)*/
 	text-align: center;
 	padding: 20px 25px;
 	border-radius: 4em;
-	display: grid;
  }
-
-.nav a {	/*Especificidad 11 (0,1,1) */
-	background-color: #333;
-	overflow: hidden;
-	float: left;
-	color: #f2f2f2;
-	text-align: justify;
-	padding: 10px 70px;
-	text-decoration: none;
-	font-size: 17px;
-	margin-left: 1px; 
-	display: grid;
-}
-
-.nav a:hover {	/*Especificidad 21 (0,2,1) */
-	background-color: #5A775E;
-	color: black;
-	display: grid;
-}
 
 .img{ /*Especificidad 10 (0,1,0)*/
   border: 5px solid #000;
   border-radius: 4em;
-  margin-left: 10px;
-  display: grid;
+  width: 97%;
 }
-

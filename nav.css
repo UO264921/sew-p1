@@ -1,0 +1,31 @@
+ nav { /*Especificidad 1 (0,0,1)*/
+    overflow: hidden;
+    background-color: #333;
+    color: #FFF;
+}
+
+nav ul { /*Especificidad 2 (0,0,2)*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li { /*Especificidad 2 (0,0,2)*/
+    position: relative;
+    display: block;
+    padding: 1em;
+    list-style: none;
+}
+
+nav a { /*Especificidad 2 (0,0,2)*/
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+nav li:hover { /*Especificidad 10 (0,1,2)*/
+    background-color: #555;
+}
+
+nav .active { /*Especificidad 11 (0,1,1)*/
+    background-color: #555;
+}

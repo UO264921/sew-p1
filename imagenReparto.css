@@ -1,0 +1,5 @@
+.imgReparto{ /*Especificidad 10 (0,1,0)*/
+  border: 5px solid #000;
+  border-radius: 4em;
+  margin-left: 10px;
+}
